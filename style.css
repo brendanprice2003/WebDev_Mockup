@@ -1,25 +1,29 @@
 body, html {
 	background-color: #34293b;
 	margin: auto;
+	--baseTop: 2%;
+}
+
+hr.half {
+	margin: auto;
+	/*margin-bottom: -30px;*/
+	margin-top: calc(var(--baseTop) + 1%);
+	width: 20%;
+	border-radius: 50%;
 }
 
 #bg {
 	background-image: url("media\\bg.jpg");
 	background-size: cover;
 	background-position: center;
-  	backgroung-filter: blur(8px);
+  	background-filter: blur(8px);
   	-webkit-filter: blur(8px);
     width: 100%;
-    /*position: absolute;*/
-    /*object-fit: cover;*/
 }
 
-#textContent {
-	/*position: absolute;*/
+#title {
 	margin: auto;
-	margin-bottom: -30px;
-	margin-top: 10px;
-	/*margin-left: 50vw;*/
+	margin-top: var(--baseTop);
 
 	color: white;
 	font-family: "Helvetica";
@@ -28,12 +32,39 @@ body, html {
 	align-content: center;
 }
 
-#container {
-	/*position: absolute;*/
+#grid {
+	display: flex;
+	margin-top: calc(var(--baseTop) + 1%);
+}
+
+#grid > div {
+	width: 25%;
+	height: auto;
 	margin: auto;
-	margin-bottom: -30px;
-	margin-top: 50px;
-	margin-left: 50vw;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #444c56;
+	border-radius: 6px;
+}
+
+#itemOne {
+	text-align: center;
+
+	color: white;
+	font-family: "Helvetica";
+	font-size: 15px;
+}
+
+#itemTwo {
+	text-align: center;
+
+	color: white;
+	font-family: "Helvetica";
+	font-size: 15px;
+}
+
+#itemThree {
+	text-align: center;
 
 	color: white;
 	font-family: "Helvetica";
