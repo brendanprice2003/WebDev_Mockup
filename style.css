@@ -1,0 +1,22 @@
+body, html {
+	background-color: #34293b;
+	margin: auto;
+}
+
+#main {
+	background-image: url("media\\bg.jpg");
+	background-size: cover;
+  	backgroung-filter: blur(8px);
+  	-webkit-filter: blur(8px);
+
+	height: 100%;
+	text-align: center;
+	align-content: center;
+	align-items: center;
+}
+
+#textContent {
+	color: white;
+	font-family: "Helvetica";
+	font-size: 25px;
+}
