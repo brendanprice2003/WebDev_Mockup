@@ -32,8 +32,12 @@ hr.half {
 	align-content: center;
 }
 
+.titleContent {
+	font-weight: bold;
+	font-size: 20px;
+}
+
 #subTitle {
-	/*margin: auto;*/
 	margin-top: calc(var(--baseTop) - 1%);
 
 	color: white;
@@ -44,6 +48,7 @@ hr.half {
 }
 
 #grid {
+	display: table-row;
 	display: flex;
 	margin-top: calc(var(--baseTop) + 1%);
 }
@@ -92,3 +97,11 @@ hr.half {
 
 /* imports */
 
+
+
+
+/* media queries */
+
+@media screen and (min-width: 1200px) {
+    
+}
