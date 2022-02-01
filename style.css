@@ -1,107 +1,119 @@
 body, html {
-	background-color: #34293b;
+	background-color: #333;
 	margin: auto;
 	--baseTop: 2%;
 }
 
 hr.half {
 	margin: auto;
-	/*margin-bottom: -30px;*/
 	margin-top: calc(var(--baseTop) - 1%);
 	width: 20%;
 	border-radius: 50%;
 }
 
-#bg {
-	background-image: url("media\\bg.jpg");
-	background-size: cover;
-	background-position: center;
-  	background-filter: blur(8px);
-  	-webkit-filter: blur(8px);
-    width: 100%;
-}
-
-#title {
+#mainContainer {
 	margin: auto;
-	margin-top: var(--baseTop);
-
-	color: white;
-	font-family: "Helvetica";
-	font-size: 30px;
-	text-align: center;
+	justify-content: center;
 	align-content: center;
+	width: 80%;
 }
 
 .titleContent {
-	font-weight: bold;
 	font-size: 20px;
+	font-family: Menlo - 400;
 }
 
-#subTitle {
-	margin-top: calc(var(--baseTop) - 1%);
+#titleContainer {
+	/*display: inline-block;*/
+}
+
+#title {
+	position: static;
+	/*position: ;*/
+	float: left;
 
 	color: white;
 	font-family: "Helvetica";
 	font-size: 20px;
+	justify-content: center;
 	text-align: center;
 	align-content: center;
 }
 
-#grid {
-	display: table-row;
-	display: flex;
+#subTitle {
+	position: static;
+	float: left;
+
+	color: white;
+	font-family: "Helvetica";
+	font-size: 20px;
+	justify-content: center;
+	text-align: center;
+	align-content: center;
+}
+
+/*#grid {
+	justify-content: center;
+	margin: auto;
+}*/
+
+#row1 {
 	margin-top: calc(var(--baseTop) + 1%);
 }
 
-#grid > div {
-	width: 20%;
-	height: auto;
+#row2 {
+	margin-top: calc(var(--baseTop) + 1%);
+}
+
+#row1 > div {
+	width: auto;
+	/*height: auto;*/
 	margin: auto;
 	border-style: solid;
-	border-width: 1px;
+	border-width: 1.5px;
 	border-color: #444c56;
 	border-radius: 6px;
+
+	text-align: center;
+	align-items: center;
+	color: white;
+	font-family: "Helvetica";
+	font-size: 15px;
+}
+
+#row2 > div {
+	width: auto;
+	/*height: auto;*/
+	margin: auto;
+	border-style: solid;
+	border-width: 1.5px;
+	border-color: #444c56;
+	border-radius: 6px;
+
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+	color: white;
+	font-family: "Helvetica";
+	font-size: 15px;
 }
 
 #itemOne {
-	text-align: center;
-
-	color: white;
-	font-family: "Helvetica";
-	font-size: 15px;
+	border-bottom-right-radius: 0% !important;
+	border-bottom-left-radius: 0% !important;
 }
 
 #itemTwo {
-	text-align: center;
-
-	color: white;
-	font-family: "Helvetica";
-	font-size: 15px;
+	border-top-right-radius: 0% !important;
+	border-top-left-radius: 0% !important;
 }
 
 #itemThree {
-	text-align: center;
-
-	color: white;
-	font-family: "Helvetica";
-	font-size: 15px;
+	border-bottom-right-radius: 0% !important;
+	border-bottom-left-radius: 0% !important;
 }
 
 #itemFour {
-	text-align: center;
-
-	color: white;
-	font-family: "Helvetica";
-	font-size: 15px;
-}
-
-/* imports */
-
-
-
-
-/* media queries */
-
-@media screen and (min-width: 1200px) {
-    
+	border-top-right-radius: 0% !important;
+	border-top-left-radius: 0% !important;
 }
