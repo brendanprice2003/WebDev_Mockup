@@ -13,43 +13,28 @@ hr.half {
 
 #mainContainer {
 	margin: auto;
+	margin-top: 50px;
 	justify-content: center;
 	align-content: center;
 	width: 80%;
 }
 
-.titleContent {
+.subTitleContent {
 	font-size: 20px;
-	font-family: Menlo - 400;
+	text-align: left;
+	margin-left: 5px;
 }
 
 #titleContainer {
-	/*display: inline-block;*/
+	position: static;
+	margin-bottom: -40px;
 }
 
 #title {
-	position: static;
-	/*position: ;*/
-	float: left;
-
 	color: white;
-	font-family: "Helvetica";
-	font-size: 20px;
-	justify-content: center;
-	text-align: center;
-	align-content: center;
-}
-
-#subTitle {
-	position: static;
-	float: left;
-
-	color: white;
-	font-family: "Helvetica";
-	font-size: 20px;
-	justify-content: center;
-	text-align: center;
-	align-content: center;
+	text-align: left;
+	font-size: 18px;
+	font-family: "Arial";
 }
 
 /*#grid {
@@ -62,12 +47,13 @@ hr.half {
 }
 
 #row2 {
-	margin-top: calc(var(--baseTop) + 1%);
+	margin-top: calc(var(--baseTop));
 }
+
+
 
 #row1 > div {
 	width: auto;
-	/*height: auto;*/
 	margin: auto;
 	border-style: solid;
 	border-width: 1.5px;
@@ -83,7 +69,6 @@ hr.half {
 
 #row2 > div {
 	width: auto;
-	/*height: auto;*/
 	margin: auto;
 	border-style: solid;
 	border-width: 1.5px;
