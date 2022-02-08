@@ -153,8 +153,9 @@ hr.half {
 }
 
 #quickItemOne {
-	background-color: #3e454e;
-	border-top: none;
+	border-top: none !important;
+	border-left: none !important;
+	border-right: none !important;
 	height: 40px;
 }
 
@@ -162,6 +163,8 @@ hr.half {
 	background-color: #3e454e;
 	border-bottom-right-radius: 0% !important;
 	border-bottom-left-radius: 0% !important;
+	border-bottom-right-radius: none !important;
+	border-bottom-left-radius: none !important;
 	height: 40px;
 }
 
