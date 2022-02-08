@@ -88,14 +88,41 @@ hr.half {
 
 #row1 {
 	margin-top: 50px;
+	width: 60vw;
 }
 
 #row2 {
-	margin-top: calc(var(--baseTop));
+	margin-top: 20px;
+}
+
+#column1 {
+	display: inline-block;
+	justify-content: left;
+	text-align: left;
+}
+
+#column2 {
+	display: inline-block;
+}
+
+#quickRow1 > div {
+	width: auto;
+	margin: auto;
+	border-style: solid;
+	border-width: 1.5px;
+	border-color: #4a5460;
+	border-radius: 6px;
+
+	text-align: center;
+	align-items: center;
+	color: white;
+	font-family: "Helvetica";
+	font-size: 15px;
 }
 
 #row1 > div {
-	width: auto;
+	display: inline-block;
+	width: 80%;
 	margin: auto;
 	border-style: solid;
 	border-width: 1.5px;
@@ -123,6 +150,12 @@ hr.half {
 	color: white;
 	font-family: "Helvetica";
 	font-size: 15px;
+}
+
+#quickItemOne {
+	background-color: #3e454e;
+	border-top: none;
+	height: 40px;
 }
 
 #itemOne {
