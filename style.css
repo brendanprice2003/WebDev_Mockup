@@ -191,7 +191,6 @@ hr.half {
 	border-bottom-right-radius: 0% !important;
 	border-bottom-left-radius: 0% !important;
 	height: 27px;
-	margin-bottom: 10px;
 }
 
 #quickTitleContent {
@@ -215,14 +214,20 @@ hr.half {
 }
 
 #pkg {
-	display: inline-flex;
-	margin: auto;
+	/*display: inline-block;*/
+	width: 18px;
+	/*padding-top: px;*/
+}
+
+#time {
+	display: inline-block;
 	width: 15px;
-	margin-top: 5px;
+	height: auto;
 }
 
 #fileStat {
-	margin-left: 5px;
+	display: inline-block;
+	margin-left: 7px;
 }
 
 #itemOne {
