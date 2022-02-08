@@ -88,7 +88,7 @@ hr.half {
 
 #row1 {
 	margin-top: 50px;
-	width: 60vw;
+	width: 50vw;
 }
 
 #row2 {
@@ -102,19 +102,23 @@ hr.half {
 }
 
 #column2 {
+	margin-left: 10px;
 	display: inline-block;
 }
 
+#quickRow1 {
+	position: relative;
+	width: 100%;
+	text-align: left;
+}
+
 #quickRow1 > div {
-	width: auto;
-	margin: auto;
+	width: 100%;
 	border-style: solid;
 	border-width: 1.5px;
 	border-color: #4a5460;
 	border-radius: 6px;
 
-	text-align: center;
-	align-items: center;
 	color: white;
 	font-family: "Helvetica";
 	font-size: 15px;
@@ -122,7 +126,7 @@ hr.half {
 
 #row1 > div {
 	display: inline-block;
-	width: 80%;
+	width: 100%;
 	margin: auto;
 	border-style: solid;
 	border-width: 1.5px;
@@ -156,7 +160,69 @@ hr.half {
 	border-top: none !important;
 	border-left: none !important;
 	border-right: none !important;
-	height: 40px;
+	border-bottom: none !important;
+	border-top-right-radius: 0% !important;
+	border-top-left-radius: 0% !important;
+	border-bottom-right-radius: 0% !important;
+	border-bottom-left-radius: 0% !important;
+	border-width: 2px !important;
+	height: 27px;
+}
+
+#quickItemTwo {
+	border-top: none !important;
+	border-left: none !important;
+	border-right: none !important;
+	border-bottom: none !important;
+	border-top-right-radius: 0% !important;
+	border-top-left-radius: 0% !important;
+	border-bottom-right-radius: 0% !important;
+	border-bottom-left-radius: 0% !important;
+	height: 27px;
+	margin-bottom: 10px;
+}
+
+#quickItemThree {
+	border-top: none !important;
+	border-left: none !important;
+	border-right: none !important;
+	border-top-right-radius: 0% !important;
+	border-top-left-radius: 0% !important;
+	border-bottom-right-radius: 0% !important;
+	border-bottom-left-radius: 0% !important;
+	height: 27px;
+	margin-bottom: 10px;
+}
+
+#quickTitleContent {
+	font-size: 16px;
+	color: #768390;
+	font-weight: 600;
+	margin-left: 5px;
+}
+
+#quickSubTitleContent {
+	font-size: 15px;
+	color: #768390;
+	font-style: italic;
+	margin-left: 5px;
+}
+
+#quickSubTitleContentTwo {
+	font-size: 15px;
+	color: #768390;
+	margin-left: 5px;
+}
+
+#pkg {
+	display: inline-flex;
+	margin: auto;
+	width: 15px;
+	margin-top: 5px;
+}
+
+#fileStat {
+	margin-left: 5px;
 }
 
 #itemOne {
