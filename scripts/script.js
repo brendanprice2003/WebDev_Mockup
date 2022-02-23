@@ -23,5 +23,5 @@ document.addEventListener('DOMContentLoaded', () => {
 const navUser = (index) => {
 
 	// Navigate user to passed page
-	window.location.href = `file:///C:/xampp/htdocs/Ass.1WebDev/views/sub${index}.html`;
+	window.location.href = `../views/sub${index}.html`;
 };
