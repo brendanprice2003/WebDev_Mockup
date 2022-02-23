@@ -10,3 +10,8 @@
 .grid {
 	display: flex;
 }
+
+#fileStatWC {
+	display: inline-block;
+	margin-left: 7px;
+}

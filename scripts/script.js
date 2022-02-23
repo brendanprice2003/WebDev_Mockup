@@ -7,6 +7,7 @@ const ToGit = () => {
 
 document.addEventListener('DOMContentLoaded', () => {
 
+	getWordCount();
 	// document.getElementById('create').addEventListener('click', () => {
 	// 	for (let i=0; i<10; i++) {
 	// 		let newElement = document.createElement(`entry${i}`);
@@ -30,4 +31,13 @@ const takeUserBack = () => {
 
 	// Navigate user back a page
 	window.location.href = `../views/index.html`;
+};
+
+const getWordCount = () => {
+
+	// Get word count of div that contains assignment content
+	if (document.getElementById('subTitleContent')) {
+		wordsArr = document.getElementById('subTitleContent').innerHTML.trim().split(' ');
+		document.getElementById('fileStatWC').innerHTML = `Word Count: ${wordsArr.length}`;
+	};
 };

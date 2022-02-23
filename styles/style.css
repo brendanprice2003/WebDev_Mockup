@@ -48,12 +48,26 @@ hr.half {
 	top: -1px;
 }
 
+.titleContentContainer {
+	display: flex;
+}
+
 .subTitleContent {
 	position: relative;
 	top: 3px;
 	font-size: 16px;
 	text-align: left;
 	margin-left: 5px;
+	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+	cursor: pointer;
+}
+
+.subTitleContentInline {
+	position: relative;
+	top: 3px;
+	color: #adbab5;
+	font-size: 16px;
+	margin-left: 545px;
 	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
 	cursor: pointer;
 }
@@ -272,7 +286,7 @@ hr.half {
 	border-top-left-radius: 0% !important;
 	border-bottom-right-radius: 0% !important;
 	border-bottom-left-radius: 0% !important;
-	padding-bottom: 5px;
+	padding-bottom: 7px;
 }
 
 #itemThree {
@@ -281,7 +295,7 @@ hr.half {
 	border-top-left-radius: 0% !important;
 	border-bottom-right-radius: 0% !important;
 	border-bottom-left-radius: 0% !important;
-	padding-bottom: 5px;
+	padding-bottom: 7px;
 }
 
 #itemFour {
@@ -290,14 +304,14 @@ hr.half {
 	border-top-left-radius: 0% !important;
 	border-bottom-right-radius: 0% !important;
 	border-bottom-left-radius: 0% !important;
-	padding-bottom: 5px;
+	padding-bottom: 7px;
 }
 
 #itemFive {
 	border-top: none !important;
 	border-top-right-radius: 0% !important;
 	border-top-left-radius: 0% !important;
-	padding-bottom: 7px;
+	padding-bottom: 8px;
 }
 
 #itemFiveSub {
