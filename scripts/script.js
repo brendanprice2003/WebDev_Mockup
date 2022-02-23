@@ -25,3 +25,9 @@ const navUser = (index) => {
 	// Navigate user to passed page
 	window.location.href = `../views/sub${index}.html`;
 };
+
+const takeUserBack = () => {
+
+	// Navigate user back a page
+	window.location.href = `../views/index.html`;
+};
