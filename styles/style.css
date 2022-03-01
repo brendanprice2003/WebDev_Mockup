@@ -72,6 +72,10 @@ hr.half {
 	cursor: pointer;
 }
 
+.grid {
+	display: flex;
+}
+
 #titleContainer {
 	width: 100%;
     display: flex;
@@ -355,4 +359,27 @@ hr.half {
 	font-size: 14px;
 	color: white;
 	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+}
+
+/* Custom Scrollbar */
+
+/* width */
+::-webkit-scrollbar {
+    width: 7px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: none;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: rgb(116, 116, 116);
+    border-radius: 12px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
 }
