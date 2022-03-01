@@ -5,11 +5,11 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 // @document.element {body}, @document.element {countElement}
-var getWordCount = (body, countElement) => {
+var getWordCount = (bodyElement, countElement) => {
 	// Get word count of div that contains assignment content
-	if (body) {
-		wordsArr = body.innerHTML.trim().split(' ');
-		countElement.innerHTML = `Word Count: ${wordsArr.length}`;
+	if (bodyElement) {
+		wordsArr = bodyElement.innerHTML.trim().split(' ');
+		countElement.innerHTML = `Word Count: ${wordsArr.length-1}`;
 	};
 };
 
