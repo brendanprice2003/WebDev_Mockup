@@ -332,6 +332,11 @@ p {
 	margin-left: 7px;
 }
 
+#fileStatDeps {
+	display: inline-block;
+	margin-left: 7px;
+}
+
 #itemOne {
 	background-color: #3e454e;
 	border-bottom-right-radius: 0% !important;

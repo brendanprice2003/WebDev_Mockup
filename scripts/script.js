@@ -11,6 +11,15 @@ var getWordCount = (bodyElement, countElement) => {
 		wordsArr = bodyElement.innerHTML.trim().split(' ');
 		countElement.innerHTML = `Word Count: ${wordsArr.length-1}`;
 	};
+	getDepCount(document.getElementById('fileStatDeps'));
+};
+// @document.element {countElement}
+var getDepCount = (countElement) => {
+	// First number below is amount of HTML files that exist
+	// We multiply by two for the amount of CSS files that exist for each HTML file(s)
+	// We then add one for this script file
+	// This is not an automatic way to get depedencies by any means, but it is the only on the client-side since this environment does not have filesystems
+	countElement.innerHTML = `Dependencies: ${(5*2)+1}`;
 };
 
 var navUser = (index) => {
