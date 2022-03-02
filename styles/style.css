@@ -74,6 +74,15 @@ p {
 	width: 85%;
 }
 
+li {
+	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+    margin-block-start: 0.9em;
+    margin-block-end: 0.9em;
+	color: #7e8891;
+	margin-left: 70px;
+	text-align: justify;
+}
+
 #mainContainer {
 	margin: auto;
 	margin-top: 50px;
