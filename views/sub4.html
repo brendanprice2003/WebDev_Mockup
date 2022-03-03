@@ -2,7 +2,9 @@
 <head>
 	<link rel="stylesheet" type="text/css" href="../styles/style.css">
 	<link rel="stylesheet" type="text/css" href="../styles/subFour.css">
+	<link rel="stylesheet" type="text/css" href="../styles/queries.css">
 	<script src="../scripts/script.js"></script>
+	<script src="../scripts/queries.js"></script>
 
 	<title>Sub4</title>
 </head>
@@ -23,12 +25,12 @@
 				<div id="row1">
 
 					<div id="itemOne">
-						<div id="mainTitle">Web Development&nbsp<span id="slashStyle">//</span>&nbsp<a id="mainSubTitleButton" onclick="takeUserBack();"><span id="mainSubTitle">Assignment 2</span></a>&nbsp>&nbsp<span id="mainSubTitleSub">Title One</span></div>
+						<div id="mainTitle">Web Development&nbsp<span id="slashStyle">//</span>&nbsp<a id="mainSubTitleButton" onclick="takeUserBack();"><span id="mainSubTitle">Assignment 2</span></a>&nbsp>&nbsp<span id="mainSubTitleSub">Preference of Website Technologies</span></div>
 					</div>
 					<div id="itemFiveSub">
 						<div id="subTitleContent">
 							<h1>
-								(My) Preference of Website Technologies
+								Preference of Website Technologies
 							</h1>
 							<hr class="half">
 							<h3>
@@ -89,7 +91,10 @@
 							<p>
 								Programming languages have many working parts, which are hard to distinguish without the help of an IDE. In laymans terms; an IDE provides a platform that can be utilized to view files, which it will then apply stlyes to the content of that file. These styles express what the content, that is being styled, represents. Please look below for an example of code inside of Visual Studio Code, notice how certain words are highlighted with color and text styles such as indentations are applied. They are applied for a purpose, for user readability. 
 							</p>
-							<img id="exampleImg" src="../media/carbon.png"><br>
+							<a href="../media/carbon.png" target="_blank">
+								<img id="exampleImg" src="../media/carbon.png"/>
+								<figcaption><em>Click image to open in new tab.</em></figcaption>
+							</a>
 							<p>
 								Chrome and Chrome DevTools are the only form of output that you have when debugging on the client, Fortunatley the DevTools environment is very well developed and has many features that serve to be extremely useful and effective. DevTools allows you to see console output, network communications from the client, website sources, debugging functionalities, locally stored browser data, peformance of specified code blocks, and much more.
 							</p>
@@ -143,6 +148,9 @@
 			<div id="itemSix">
 				<div class="itemSixTitleContent">
 					This website has been pushed to a GitHub repository. README.md is also available.
+				</div>
+				<div class="itemSixTitleContentMediaQuery">
+					This website has been pushed to a GitHub repository.
 				</div>
 				<button id="buttonViewCode" href="" onclick="ToGit()"><span id="buttonViewCodeText">View Code</span></button>
 			</div>
